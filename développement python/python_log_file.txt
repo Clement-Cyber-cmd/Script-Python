@@ -1,0 +1,50 @@
+2024-09-25 08:15:23 INFO [main] Application starting up
+2024-09-25 08:15:24 INFO [database] Connecting to database server at localhost:5432
+2024-09-25 08:15:25 INFO [database] Database connection established successfully
+2024-09-25 08:15:26 INFO [auth] Authentication service initialized
+2024-09-25 08:16:10 INFO [api] REST API server started on port 8080
+2024-09-25 08:16:15 INFO [scheduler] Background job scheduler started
+2024-09-25 08:17:22 ERROR [database] Connection timeout to database server
+2024-09-25 08:17:23 WARN [database] Retrying database connection (attempt 1/3)
+2024-09-25 08:17:25 INFO [database] Database connection restored
+2024-09-25 08:18:45 INFO [api] User login successful: user_id=12345
+2024-09-25 08:19:12 ERROR [auth] Invalid credentials provided for user: admin@example.com
+2024-09-25 08:19:15 WARN [security] Multiple failed login attempts from IP: 192.168.1.100
+2024-09-25 08:20:33 INFO [api] Processing order request: order_id=ORD-2024-001
+2024-09-25 08:20:35 ERROR [payment] Payment gateway timeout: transaction_id=TXN-445566
+2024-09-25 08:20:36 WARN [payment] Retrying payment processing
+2024-09-25 08:20:40 INFO [payment] Payment processed successfully: amount=$125.99
+2024-09-25 08:21:18 DEBUG [cache] Cache hit for key: user_profile_12345
+2024-09-25 08:22:05 ERROR [file_system] Unable to write to log directory: /var/logs/app/
+2024-09-25 08:22:06 CRITICAL [file_system] Disk space critically low: 2% remaining
+2024-09-25 08:22:30 INFO [maintenance] Automated cleanup started
+2024-09-25 08:23:15 ERROR [network] Failed to connect to external API: https://api.external-service.com
+2024-09-25 08:23:16 WARN [network] External service unavailable, using cached data
+2024-09-25 08:24:42 INFO [scheduler] Running hourly report generation
+2024-09-25 08:25:33 ERROR [report] Report generation failed: insufficient memory
+2024-09-25 08:25:34 CRITICAL [system] Out of memory error: heap space exhausted
+2024-09-25 08:26:15 INFO [system] Garbage collection completed
+2024-09-25 08:27:22 WARN [security] Suspicious activity detected from IP: 10.0.0.55
+2024-09-25 08:28:10 ERROR [validation] Invalid data format in request: expected JSON, got XML
+2024-09-25 08:28:45 INFO [api] Health check endpoint accessed
+2024-09-25 08:29:33 ERROR [database] Deadlock detected in transaction: rolling back
+2024-09-25 08:30:15 INFO [backup] Daily backup process started
+2024-09-25 08:31:22 WARN [backup] Backup taking longer than expected
+2024-09-25 08:35:45 INFO [backup] Backup completed successfully: size=2.3GB
+2024-09-25 08:36:12 ERROR [email] SMTP server connection failed: mail.company.com:587
+2024-09-25 08:36:30 DEBUG [config] Configuration reloaded from file
+2024-09-25 08:37:18 INFO [user] New user registration: user_id=12346
+2024-09-25 08:38:25 ERROR [cache] Redis connection lost: timeout after 5000ms
+2024-09-25 08:38:26 WARN [cache] Falling back to in-memory cache
+2024-09-25 08:39:44 CRITICAL [security] Potential SQL injection attempt blocked
+2024-09-25 08:40:12 INFO [api] API request processed: endpoint=/users/profile
+2024-09-25 08:41:33 ERROR [integration] Third-party service returned HTTP 500
+2024-09-25 08:42:15 INFO [scheduler] Cleanup task completed: deleted 1547 temporary files
+2024-09-25 08:43:28 WARN [performance] Response time exceeds threshold: 5.2 seconds
+2024-09-25 08:44:55 ERROR [parsing] JSON parsing error: unexpected token at line 15
+2024-09-25 08:45:30 INFO [monitoring] System health check passed
+2024-09-25 08:46:18 DEBUG [query] Database query executed in 245ms
+2024-09-25 08:47:22 ERROR [notification] Push notification delivery failed: device token invalid
+2024-09-25 08:48:10 INFO [session] User session expired: user_id=12345
+2024-09-25 08:49:33 CRITICAL [system] Service restart required due to memory leak
+2024-09-25 08:50:15 INFO [system] Application shutdown initiated

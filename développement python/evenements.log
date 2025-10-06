@@ -1,0 +1,7 @@
+2025-09-26 11:25:34 - INFO - Le script de journalisation a démarré.
+2025-09-26 11:25:34 - DEBUG - Ceci est un message de débogage.
+2025-09-26 11:25:34 - INFO - Ceci est un message d'information.
+2025-09-26 11:25:34 - WARNING - Ceci est un avertissement.
+2025-09-26 11:25:34 - ERROR - Ceci est un message d'erreur.
+2025-09-26 11:25:34 - CRITICAL - Ceci est un message critique.
+2025-09-26 11:25:34 - INFO - Le script de journalisation s'est terminé.
